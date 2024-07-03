@@ -4,5 +4,5 @@ services:
     name: coder
     env: docker
     autoDeploy: false
-    plan: starter
+    plan: free
     rootDir: render
