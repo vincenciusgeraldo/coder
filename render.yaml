@@ -4,5 +4,8 @@ services:
     name: coder
     env: docker
     autoDeploy: false
-    plan: free
+    plan: starter
     rootDir: render
+    envVars:
+      - key: CODER_PG_CONNECTION_URL
+        sync: false # For security, provide CODER_PG_CONNECTION_URL in the Render Dashboard
