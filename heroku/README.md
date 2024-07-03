@@ -11,7 +11,7 @@
 
 1. Create a new Heroku app by using our deploy button below. This will automatically create a new app and deploy the latest version of Coder to it along with a basic postgres database.
 
-   [![Deploy Coder on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/coder/packages)
+   [![Deploy Coder on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vincenciusgeraldo/coder)
 
 2. Enable dyno metadata by running the following command in the terminal:
 
